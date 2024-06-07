@@ -17,15 +17,15 @@ const Five = () => {
           <span className="flex justify-center text-sm uppercase text-[#d1d5db]">
             Category
           </span>
-          <h2 className="text-2xl font-bold leading-tight text-white">
+          <h2 className="text-lg font-bold leading-tight text-white md:text-2xl">
             Introduction line heading or value proposition goes here in 4 lines.
           </h2>
-          <button className="py-2 px-4 hover:text-white text-black transition-transform duration-200 bg-yellow-400 rounded-md hover:bg-black  ">
+          <button className="px-2 py-1 text-black transition-transform duration-200 bg-yellow-400 rounded-md md:py-2 md:px-4 hover:bg-neutral-800 hover:text-white">
             Know More
           </button>
         </div>
         <div
-          className="flex flex-col items-start justify-around p-6 space-y-4 bg-center bg-cover  border border-red-500 "
+          className="flex flex-col items-start justify-around p-6 space-y-4 bg-center bg-cover "
           style={{
             backgroundImage: `url(${Rectangle})`,
             width: "350px",
@@ -35,15 +35,15 @@ const Five = () => {
           <span className="flex justify-center text-sm uppercase text-[#d1d5db]">
             Category
           </span>
-          <h2 className="text-2xl font-bold leading-tight text-white">
+          <h2 className="text-lg font-bold leading-tight text-white md:text-2xl">
             Introduction line heading or value proposition goes here in 4 lines.
           </h2>
-          <button className="py-2 px-4 text-black transition-transform duration-200 bg-yellow-400 rounded-md hover:bg-black  hover:text-white">
+          <button className="px-2 py-1 text-black transition-transform duration-200 bg-yellow-400 rounded-md md:py-2 md:px-4 hover:bg-neutral-800 hover:text-white">
             Know More
           </button>
         </div>
         <div
-          className="flex flex-col items-start justify-around p-6 space-y-4 bg-center bg-cover  border border-red-500 "
+          className="flex flex-col items-start justify-around p-6 space-y-4 bg-center bg-cover "
           style={{
             backgroundImage: `url(${Rectangle13})`,
             width: "350px",
@@ -53,10 +53,10 @@ const Five = () => {
           <span className="flex justify-center text-sm uppercase text-[#d1d5db]">
             Category
           </span>
-          <h2 className="text-2xl font-bold leading-tight text-white">
+          <h2 className="text-lg font-bold leading-tight text-white md:text-2xl">
             Introduction line heading or value proposition goes here in 4 lines.
           </h2>
-          <button className="py-2 px-4 text-black transition-transform duration-200 bg-yellow-400 rounded-md hover:bg-black hover:text-white">
+          <button className="px-2 py-1 text-black transition-transform duration-200 bg-yellow-400 rounded-md md:py-2 md:px-4 hover:bg-neutral-800 hover:text-white">
             Know More
           </button>
         </div>
